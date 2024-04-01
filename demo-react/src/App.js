@@ -10,6 +10,7 @@ import Classcomp from './Components/Classcomp';
 import Parfun from './Components/Parfun';
 import Eventclass from './Components/Eventclass';
 import Hookhandle from './Components/Hookhandle';
+import Count from './Components/Count';
 
 
 
@@ -27,7 +28,8 @@ function App() {
       {/* <Classcomp></Classcomp> */}
       {/* <Parfun></Parfun> */}
       {/* <Eventclass></Eventclass> */}
-      <Hookhandle></Hookhandle>
+      {/* <Hookhandle></Hookhandle> */}
+      <Count></Count>
     </div>
   );
 }
