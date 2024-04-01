@@ -8,6 +8,8 @@ import Parent from './Components/Parent';
 import Functionalcomp from './Components/Functionalcomp';
 import Classcomp from './Components/Classcomp';
 import Parfun from './Components/Parfun';
+import Eventclass from './Components/Eventclass';
+import Hookhandle from './Components/Hookhandle';
 
 
 
@@ -22,8 +24,10 @@ function App() {
       {/*<Message/>*/}
       {/* <Parent/> */}
       {/* <Functionalcomp name="dora"></Functionalcomp> */}
-      <Classcomp></Classcomp>
+      {/* <Classcomp></Classcomp> */}
       {/* <Parfun></Parfun> */}
+      {/* <Eventclass></Eventclass> */}
+      <Hookhandle></Hookhandle>
     </div>
   );
 }
