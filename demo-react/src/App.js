@@ -25,11 +25,11 @@ function App() {
       {/*<Message/>*/}
       {/* <Parent/> */}
       {/* <Functionalcomp name="dora"></Functionalcomp> */}
-      {/* <Classcomp></Classcomp> */}
-      {/* <Parfun></Parfun> */}
+      {/* <Classcomp></Classcomp>
+      <Parfun></Parfun> */}
       {/* <Eventclass></Eventclass> */}
-      {/* <Hookhandle></Hookhandle> */}
-      <Count></Count>
+      <Hookhandle></Hookhandle>
+      {/* <Count></Count> */}
     </div>
   );
 }
