@@ -12,16 +12,27 @@
 //     )
 // }
 // export default Hookhandle;
-import React,{useState} from "react";
+// import React,{useState} from "react";
+// function Hookhandle(){
+//     const initial = 0;
+//     const [count,setCount] = useState(initial);
+//     return(
+//         <div>
+//             <h1>{count}</h1>
+//             <button onClick={()=>setCount(count+1)}>Increment</button>
+//             <button onClick={()=>setCount(count-1)}>Decrement</button>
+//             <button onClick={()=>setCount(initial)}>Reset</button>
+//         </div>
+//     )
+// }
+// export default Hookhandle;
+import React,{useState} from 'react';
 function Hookhandle(){
-    const initial = 0;
-    const [count,setCount] = useState(initial);
+    const [count , setCount] = useState(0)
     return(
         <div>
-            <h1>{count}</h1>
-            <button onClick={()=>setCount(count+1)}>Increment</button>
-            <button onClick={()=>setCount(count-1)}>Decrement</button>
-            <button onClick={()=>setCount(initial)}>Reset</button>
+            <button onClick={()=>setCount(prevcount => prevcount + 1)}>{count}</button>
+           
         </div>
     )
 }
